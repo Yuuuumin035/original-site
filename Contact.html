@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>道後温泉</title>
+    <meta
+      name="description"
+      content="テキストテキストテキストテキストテキストテキストテキストテキスト"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header id="header">
+      <h1 class="site-title">
+        <a href="index.html"><img src="img/logo.png" alt="logo" /></a>
+      </h1>
+
+      <nav id="navi">
+        <ul class="navi-menu">
+          <li><a href="index.html#pricelist">利用料金</a></li>
+          <li><a href="Access.html">交通アクセス</a></li>
+          <li><a href="sightseeing.html">周辺観光</a></li>
+          <li><a href="Contact.html">お問い合わせ</a></li>
+        </ul>
+      </nav>
+
+      <div class="toggle_btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div id="mask"></div>
+    </header>
+
+    <main>
+      <div id="kv">
+        <img src="img/お問い合わせkv.jpg">
+        <h4>お問い合わせ</h4>
+      </div>
+      <div class="content container">
+        <div id="contact">
+          <div class="contact-inner">
+            <form method="post">
+              <section class="contact-table">
+                <tr class="table-list">
+                  <th>
+                    <label for="name"
+                      >お名前</label
+                    >
+                  </th>
+                  <td>
+                    <input
+                      type="text"
+                      name="yourname"
+                      id="name"
+                      placeholder="お名前をご入力ください"
+                      class="input-area"
+                      autocomplete="name"
+                    />
+                  </td>
+                </tr>
+
+                <tr class="table-list">
+                  <th>
+                    <label for="furigana">ふりがな</label>
+                  </th>
+                  <td>
+                    <input
+                      type="text"
+                      name="yourname"
+                      id="furigana"
+                      placeholder="ふりがなをご入力ください"
+                      class="input-area"
+                    />
+                  </td>
+                </tr>
+                <tr class="table-list">
+                  <th>
+                    <label for="mail">メールアドレス</label>
+                  </th>
+                  <td>
+                    <input
+                      id="mail"
+                      type="email"
+                      name="mail"
+                      placeholder="メールアドレスをご入力ください"
+                      class="input-area"
+                      autocomplete="email"
+                    />
+                  </td>
+                </tr>
+
+                <tr class="table-list">
+                  <th>
+                    <label for="comment">お問い合わせ内容</label>
+                  </th>
+                  <td>
+                    <textarea id="comment" name="comment"></textarea>
+                  </td>
+                </tr>
+              </section>
+              
+              <input type="submit" value="送信する" class="submit-button" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer id="footer">
+      <div class="md-flex md-justify-between">
+        <h5>道後温泉</h5>
+        <div class="grid">
+          <div>
+            <h6>所在地</h6>
+            <p>〒790-0842</p>
+            <p>愛媛県松山市道後湯之町5番6号</p>
+          </div>
+          <div>
+            <h6>ABOUT</h6>
+            <ul class="footer__navi">
+              <li><a href="Access.html">交通アクセス</a></li>
+              <li><a href="sightseeing.html">周辺観光</a></li>
+              <li><a href="Contact.html">お問い合わせ</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <p class="copyright">© 2024</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
